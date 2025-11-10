@@ -1,0 +1,5 @@
+dinheiro = float(input('Digite quantos reais você possui:'))
+converrs = float(dinheiro/3.27)
+converdrs = float(3.27*dinheiro)
+print('R${} convertido para Dollar é US${:.2f}'.format(dinheiro,converrs))
+print('US${} convertido para R${:.2f}'.format(dinheiro,converdrs))
